@@ -40,6 +40,8 @@ Bản này gộp 3 tài liệu cũ (tài liệu bàn giao 24/10, hướng dẫn 
 34. (18/11) **Ghép source rồi Leader gửi user:** Creator làm xong (kể cả ghép các source nếu có) chỉ báo đường dẫn .mp4 cho Leader; **Leader gửi file cho user**. Creator không tự gửi user.
 35. (18/11) **Không ai tự xem lại video để kiểm tra** (cả Creator lẫn Leader): user tự kiểm. **Không được tự ý làm lại** khi user chưa yêu cầu.
 36. (18/11) **Áo: nhân vật phải di chuyển và tương tác với đồ vật, người xung quanh nhiều hơn.** Prompt phải **ghi rõ từng cảnh khoảng 4–5 hành động nhỏ tự nhiên, cụ thể** (ví dụ: bước tới quầy, cầm muôi khuấy nồi, nghiêng đầu ngửi, quay sang cười với bà, đặt muôi xuống), cấm ghi chung chung kiểu "đang nấu ăn", "đi lại tự nhiên" (mục 3, 5.4).
+37. (18/11) **Giấy gói: giữ đúng design là ưu tiên số 1** (lỗi video Iceman nơ đỏ vàng bị sai design nhiều, user yêu cầu làm lại). Dùng **ảnh design làm tham chiếu chính cho mọi cảnh có giấy**, nhất là cảnh trải phẳng cận cảnh; prompt **mô tả rõ từng họa tiết, màu nền, chữ** (vd: nền cam đất, cầu thủ số 18 áo navy bật nhảy, chữ ICEMAN vòng cung màu kem, bánh gừng, tất Noel…); cấm tự thêm hoặc đổi họa tiết, cấm biến dạng chữ (mục 7).
+38. (19/11) **Áo 2 mặt: cảnh xuất hiện đầu tiên của áo luôn là MẶT SAU.** Nếu user yêu cầu một cảnh mở đầu khác (vd unbox, lấy áo từ túi…), thì cảnh ngay sau cảnh mở đầu đó vẫn phải là mặt sau, rồi mới tới mặt trước.
 
 ---
 
