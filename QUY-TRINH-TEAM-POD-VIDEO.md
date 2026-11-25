@@ -42,6 +42,7 @@ Bản này gộp 3 tài liệu cũ (tài liệu bàn giao 24/10, hướng dẫn 
 36. (18/11) **Áo: nhân vật phải di chuyển và tương tác với đồ vật, người xung quanh nhiều hơn.** Prompt phải **ghi rõ từng cảnh khoảng 4–5 hành động nhỏ tự nhiên, cụ thể** (ví dụ: bước tới quầy, cầm muôi khuấy nồi, nghiêng đầu ngửi, quay sang cười với bà, đặt muôi xuống), cấm ghi chung chung kiểu "đang nấu ăn", "đi lại tự nhiên" (mục 3, 5.4).
 37. (18/11) **Giấy gói: giữ đúng design là ưu tiên số 1** (lỗi video Iceman nơ đỏ vàng bị sai design nhiều, user yêu cầu làm lại). Dùng **ảnh design làm tham chiếu chính cho mọi cảnh có giấy**, nhất là cảnh trải phẳng cận cảnh; prompt **mô tả rõ từng họa tiết, màu nền, chữ** (vd: nền cam đất, cầu thủ số 18 áo navy bật nhảy, chữ ICEMAN vòng cung màu kem, bánh gừng, tất Noel…); cấm tự thêm hoặc đổi họa tiết, cấm biến dạng chữ (mục 7).
 38. (19/11) **Áo 2 mặt: cảnh xuất hiện đầu tiên của áo luôn là MẶT SAU.** Nếu user yêu cầu một cảnh mở đầu khác (vd unbox, lấy áo từ túi…), thì cảnh ngay sau cảnh mở đầu đó vẫn phải là mặt sau, rồi mới tới mặt trước.
+39. (25/11) **Giấy gói: mỗi tờ chỉ in design ở MỘT mặt, mặt còn lại (mặt trong) là giấy trắng trơn, không họa tiết.** Cảnh nào thấy mặt trong của giấy (trải giấy, đặt hộp, gấp mép, cuộn giấy) thì mặt đó phải trắng trơn. Nếu mockup đã có sẵn cảnh gói hộp (mặt trắng trơn ngửa lên dưới hộp carton, gấp 1 mép lên hộp) thì bám đúng cảnh đó, giữ đúng màu nơ và bối cảnh của mockup (mục 7.1). Ở những cảnh thấy mặt trong, luật này thay luật "không bao giờ lộ mặt trắng" (04/11).
 
 ---
 
@@ -245,6 +246,8 @@ Không đưa ảnh bối cảnh có giấy gói khác, AI sẽ chép giấy đó
 
 **Luật 1 mặt (04/11):** Giấy gói quà **chỉ có một mặt in design**; mặt còn lại là **trắng trơn**. Trong mọi cảnh phải giữ mặt in hướng ra ngoài, **không bao giờ lộ mặt trắng** (mép cuộn, chỗ gấp hở, tờ bị lật). Prompt khóa: "NEVER show the white back side of the paper, printed side always facing out".
 
+**Luật mặt trong giấy (25/11):** giấy chỉ in design ở MỘT mặt, mặt còn lại là giấy trắng trơn. Cảnh nào thấy mặt trong của giấy (lúc trải giấy, đặt hộp, gấp mép, cuộn giấy) thì mặt đó phải **trắng trơn, không có họa tiết**; mặt in design chỉ xuất hiện ở mặt ngoài. Ở những cảnh thấy mặt trong, luật này thay luật 04/11 ở trên. **Nếu mockup đã có sẵn cảnh gói hộp** (1 mặt trắng trơn ngửa lên dưới hộp carton và gấp 1 mép lên hộp) thì **bám theo đúng cảnh đó** làm tham chiếu, giữ đúng màu nơ và bối cảnh của mockup. Prompt khóa: "The inner side of the wrapping paper is plain solid white with no pattern and no print whenever it is visible (unfolding, placing the box, folding an edge, rolling); only the outer side carries the design exactly as <IMAGE_0>. If the mockup already shows the boxing scene, follow that reference scene exactly, same bow color and same setting as the mockup."
+
 ### 7.2. Tối thiểu 6 cảnh, bắt buộc có 3 cảnh sau
 | Cảnh bắt buộc | Nội dung | Ảnh dùng |
 |---|---|---|
@@ -321,6 +324,7 @@ SHOT E (<IMAGE_2>): Low-angle medium shot: an adult's hands place the box on the
 4. Đủ và đúng vị trí mọi chi tiết in. Không thêm chữ hay hình lạ, không lật gương, không đổi mặt trước và mặt sau.
 5. Áo: xen kẽ trước/sau đúng luật, áo không vén, tay và tóc không che chữ, hoodie hạ mũ, sweat không mũ.
 6. Giấy gói: đủ 3 cảnh bắt buộc (trải phẳng vuốt nhẹ, gấp vào hộp carton, vuốt nhẹ nơ); giấy **chỉ in 1 mặt** (mặt kia trắng trơn); dừng hình từng cảnh so với design: đúng màu nền, đúng kích thước họa tiết, không đầu người lơ lửng, **không lộ mặt trắng**, nơ không bị biến dạng.
+6a. Giấy gói (25/11): cảnh nào thấy mặt trong giấy (trải giấy, đặt hộp, gấp mép, cuộn giấy) thì mặt đó **trắng trơn, không họa tiết**; mockup đã có sẵn cảnh gói hộp thì bám đúng cảnh đó, đúng màu nơ và bối cảnh.
 7. Không hòa hình hay chồng hình ở chỗ chuyển cảnh và giữa cảnh. Tổng lỗi không quá 3,7s.
 8. Chuyển động tự nhiên, không đơ, không như robot, không lỗi tay/mặt. Không lặp cảnh.
 9. Không đứng hình: `ffmpeg -i video.mp4 -vf freezedetect=n=0.02:d=0.5 -an -f null - 2>&1 | grep freeze`. Đứng ở cuối thì cắt bỏ.
@@ -371,6 +375,7 @@ print('saved', out)
 | Đứng hình | Không ghim keyframe, thêm câu "continuous motion from the very first frame". |
 | Giấy gói sai màu / vẽ lại họa tiết | Dùng ảnh B dán pixel, nhắc màu nền ở câu khóa và trong cảnh, tách riêng cảnh trải phẳng (7.3). |
 | Lộ mặt trắng giấy | Giấy chỉ in 1 mặt — mặt kia trắng trơn. "printed side always facing out, NEVER show the white back side", hộp đã nằm trên tờ in, bắt đầu gấp khi hộp gần bọc xong. |
+| Mặt trong giấy có họa tiết (lúc trải giấy, đặt hộp, gấp mép, cuộn giấy) | Giấy chỉ in 1 mặt, mặt trong phải trắng trơn. Ghi "inner side plain solid white, no pattern, no print, only the outer side carries the design". Mockup đã có sẵn cảnh gói hộp (mặt trắng ngửa lên dưới hộp carton, gấp 1 mép lên hộp) thì bám đúng cảnh đó, giữ đúng màu nơ và bối cảnh của mockup. |
 | Nhân vật trên giấy to lên | Quay trung cảnh cách 1–2 m, "same motif size as <IMAGE_1>". |
 | Vỡ chữ ở cảnh zoom design áo | Bỏ cảnh zoom cận, chỉ quay trung cảnh hoặc cận vừa thấy trọn áo. |
 | Nhân vật khựng / lặp hành động khi ghép source áo | Cắt bỏ 1–2s đầu mỗi source rồi mới ghép (mục 5.8). |
