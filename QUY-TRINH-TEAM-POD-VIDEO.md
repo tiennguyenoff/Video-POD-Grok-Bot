@@ -261,7 +261,7 @@ Các cảnh còn lại (tối thiểu 3) dùng ảnh C: lia góc 3/4 quanh hộp
 Không có cảnh cuộn giấy riêng. Không bao giờ quay cảnh thắt nơ.
 
 ### 7.3. Tách riêng cảnh trải phẳng rồi ghép (khuyến nghị)
-Cảnh trải phẳng hay sai nhất (sai màu, vẽ lại họa tiết, đầu người lơ lửng, lộ mặt trắng), nên được tách riêng:
+Cảnh trải phẳng hay sai nhất (sai màu, vẽ lại họa tiết, đầu người lơ lửng, mặt trong có họa tiết), nên được tách riêng:
 1. **Tạo cảnh trải phẳng riêng** (khoảng 3s, 9:16), chỉ đưa ảnh A và ảnh B, prompt chỉ có 1 cảnh trải phẳng và vuốt mép (mẫu ở 7.5). Soát kỹ từng khung với design: đúng màu nền, đúng kích thước họa tiết, không nhân vật lạ. Chưa đúng 100% thì tạo lại cảnh này (tối đa 3 lần, đây là phần rẻ).
 2. **Tạo phần còn lại 1 lần duy nhất** (khoảng 12s, từ cảnh gấp giấy tới cảnh kết), đưa đủ ảnh A, B, C. Các hard cut ghi trong prompt.
 3. **Ghép bằng hard cut**, đưa 2 đoạn về cùng kích thước và fps rồi nối:
